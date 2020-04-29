@@ -9,3 +9,14 @@ BlogPost.create({
     console.log(error,blogpost)
 })
 
+BlogPost.create({
+    title: '  bghde.wgfhfgeevbnvbwrwererwhgg...',
+    body: '  en here a long time, you...'
+}, (error, blogpost)=>{
+    console.log(error,blogpost)
+})
+
+BlogPost.find({}, (error, blogpost)=>{
+    console.log(error,blogpost)
+})
+
